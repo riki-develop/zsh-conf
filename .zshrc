@@ -75,4 +75,10 @@ SAVEHIST=1000000
 PROMPT="%{${fg[green]}%}[%n@%m]%{${reset_color}%} %~
 %# "
 
+# gulp PATHを通す
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:
+
+# nodebrew　PATHを通す
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 #########################
